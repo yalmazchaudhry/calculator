@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <h1>Calculator</h1> -->
+    <div class="container">
+      <input id="inputData" type="text" placeholder="0" />
+      <div class="row" id="upperRow">
+        <button onclick="clr1()" class="button clear">AC</button>
+        <button onclick="calculate('/')" class="button operator">/</button>
+      </div>
+      <div class="row">
+        <button onclick="calculate(7)" class="button operands">7</button>
+        <button onclick="calculate(8)" class="button operands">8</button>
+        <button onclick="calculate(9)" class="button operands">9</button>
+        <button onclick="calculate('*')" class="button operator">*</button>
+      </div>
+      <div class="row">
+        <button onclick="calculate(4)" class="button operands">4</button>
+        <button onclick="calculate(5)" class="button operands">5</button>
+        <button onclick="calculate(6)" class="button operands">6</button>
+        <button onclick="calculate('-')" class="button operator">-</button>
+      </div>
+      <div class="row">
+        <button onclick="calculate(1)" class="button operands">1</button>
+        <button onclick="calculate(2)" class="button operands">2</button>
+        <button onclick="calculate(3)" class="button operands">3</button>
+        <button onclick="calculate('+')" class="button operator">+</button>
+      </div>
+      <div class="row">
+        <button onclick="calculate(0)" class="button operands zero">0</button>
+        <button onclick="calculate('.')" class="button operands">.</button>
+        <button onclick="Result('=')" class="button operator">=</button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

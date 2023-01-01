@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+    border: none;
+}
+.row{
+    padding: 2px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: purple;
+}
+.zero{
+    width: 120px;
+    border-radius: 500px;
+}
+#upperRow{
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+}
+input{
+    height: 40px;
+    margin: 0px 0px 5px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    pointer-events: none;
+    text-align: center;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.operator{
+    background-color: #F7F700;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.operands{
+    background-color: #D3D3D3;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.clear{
+    background-color: #c0c0c0;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
